@@ -1,0 +1,45 @@
+/* regras pertencentes ao 1º (primeira) linha */
+.topo{
+    background-color: lawngreen;
+}
+
+.row-topo{
+
+}
+/* regras pertencentes ao 2º (segundo) linha */
+.esquerda, .direita{
+    width: 50%;
+    float: left;
+}
+
+.esquerda p, .direita p{
+    color: white;
+}
+
+.img-destaque .esquerda{
+    background-color: black;
+}
+
+.img-destaque .direita{
+    background-color: red;
+}
+/* regras pertencentes ao 3º (terceiro) linha */
+.w-60{
+    width: 60%;
+    float: left;
+    background-color: yellow;
+}
+
+.w-40{
+    width: 40%;
+    float: left;
+    background-color: green;
+}
+/* regras pertencentes ao 4º (quarto) linha */
+.rodape{
+    color: #FFF;
+}
+
+.row-topo .w-40{
+    background-color: blue!important;
+}
